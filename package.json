@@ -1,0 +1,28 @@
+{
+  "name": "daiken-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renatoyoiti/daiken-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renatoyoiti/daiken-api/issues"
+  },
+  "homepage": "https://github.com/renatoyoiti/daiken-api#readme",
+  "description": "",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.152",
+    "@types/node": "^24.0.15",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "remove": "^0.1.5"
+  }
+}
