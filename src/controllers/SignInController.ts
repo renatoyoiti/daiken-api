@@ -1,12 +1,12 @@
-import { z } from 'zod';
 import { compare } from 'bcryptjs';
 import { eq } from 'drizzle-orm';
+import { z } from 'zod';
 
-import { HttpRequest, HttpResponse } from "../types/Http";
-import { badRequest, ok, unauthorized } from "../utils/http";
 import { db } from '../db';
 import { usersTable } from '../db/schema';
 import { signAccessTokenFor } from '../lib/jwt';
+import { HttpRequest, HttpResponse } from "../types/Http";
+import { badRequest, ok, unauthorized } from "../utils/http";
 
 const schema = z.object({
   email: z.email(),
